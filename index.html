@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<meta charset="utf-8">
+<style type="text/css">
+	body{width: 100%;background:#FFFFFF url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1524023213&di=e284631462702bc3c05eb32a20cee9bb&imgtype=jpg&er=1&src=http%3A%2F%2Fimg1.3lian.com%2F2015%2Fa2%2F234%2Fd%2F210.jpg');margin: 0;padding: 0}
+	.head{width: 300px;height: 300px;border: #FFFFFF solid 3px;border-radius: 250px;box-shadow: rgba(254,102,1,0.4) 15px 8px 25px;margin: 0 auto;padding:0;margin-top: 50px;overflow: hidden;background: #FFFFFF;text-align: center;}
+	img{width: 530px;height: 320px;margin: 0 auto;padding: 0}
+	.aa{width: 150px;height: 50px;background: rgba(255,255,255,0.7);margin: 0 auto;color:#00fff6;text-align: center;font-size: 20px;line-height: 50px;border-radius: 25px;border:none;box-shadow: rgba(8,247,205,0.3) 0px 3px 15px;display: block;margin-top: 50px;-moz-user-select:-moz-none;}
+	.aa:hover{width: 155px;height: 55px;box-shadow: rgba(255,0,0,0.5) 0px 8px 15px;background: #FFFFFF;color:rgba(255,0,0,0.8);}
+
+	.select{
+		width: 130px;height: 50px;background:#FFFFFF;margin: 0 auto;color:#00fff6;text-align: center;font-size: 35px;line-height: 50px;border:none;box-shadow: rgba(8,247,205,0.3) 0px 3px 15px;display: block;margin-top: 20px;-moz-user-select:-moz-none;
+	}
+	.select p{
+		width: 130px;height: 50px;color: #00fff6;text-align: center;margin: 0;padding: 0;font-size: 18px
+	}
+	.select a{
+		width: 130px;height: 30px;text-align: center;color: #00fdd6;display: none;font-size: 16px;background: #FFFFFF;border-radius: 2px;line-height: 30px;margin-top: 0px;
+		box-shadow: rgba(8,247,205,0.3) 0px 3px 15px;margin:0 auto;text-decoration: none;
+	}
+	.select:hover a{
+		display: block;
+	}
+	.select:hover a:hover{
+		background: rgba(0,255,255,0.5);color: rgba(255,0,0,0.5)
+	}
+	.select a:nth-of-type(1){
+		margin-top: 0
+	}
+</style>
+<body>
+	<div class="head">
+		<img src="http://wx1.sinaimg.cn/mw690/0060lm7Tly1fq7bih4e50j31hc0y944c.jpg"/>
+	</div>
+	<a onclick="alee()" value="登录"  onselectstart="return false;" class="aa">登录</a>
+	<div class="select">
+			<p>常用链接</p>
+			<a href="http://www.baidu.com">百度</a>
+			<a href="http://huaban.com/">花瓣</a>
+			<a href="http://www.ui.cn">UI中国</a>
+		</div>
+</body>
+</html>
+<script type="text/javascript">
+	function alee(){
+	var a = window.prompt('Github登录：输入密码：');
+	if (a == null||a == undefined||a == '') {
+		// alert('请输入正确的密码！！！');
+		return;
+	}else{
+		if (a=='935915822izr') {
+		alert('登录成功！！！');
+		window.open('https://github.com/17683954109/php/tree/master/.gitignore/%20.gitignore','GitHub','fullscreen=1');
+	}else{
+		alert('密码错误！！！');
+		alee();
+	}
+	}
+	}
+	// alee();
+	// window.close();
+</script>
