@@ -1,214 +1,65 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>凡客诚品</title>
-<link rel="stylesheet" type="text/css" href="css/reset.css">
-<link rel="stylesheet" type="text/css" href="css/public.css">
-<link rel="stylesheet" type="text/css" href="css/index.css">
+	<title></title>
 </head>
+<meta charset="utf-8">
+<style type="text/css">
+	body{width: 100%;background:#FFFFFF url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1524023213&di=e284631462702bc3c05eb32a20cee9bb&imgtype=jpg&er=1&src=http%3A%2F%2Fimg1.3lian.com%2F2015%2Fa2%2F234%2Fd%2F210.jpg');margin: 0;padding: 0}
+	.head{width: 300px;height: 300px;border: #FFFFFF solid 3px;border-radius: 250px;box-shadow: rgba(254,102,1,0.4) 15px 8px 25px;margin: 0 auto;padding:0;margin-top: 50px;overflow: hidden;background: #FFFFFF;text-align: center;}
+	img{width: 530px;height: 320px;margin: 0 auto;padding: 0}
+	.aa{width: 150px;height: 50px;background: rgba(255,255,255,0.7);margin: 0 auto;color:#00fff6;text-align: center;font-size: 20px;line-height: 50px;border-radius: 25px;border:none;box-shadow: rgba(8,247,205,0.3) 0px 3px 15px;display: block;margin-top: 50px;-moz-user-select:-moz-none;}
+	.aa:hover{width: 155px;height: 55px;box-shadow: rgba(255,0,0,0.5) 0px 8px 15px;background: #FFFFFF;color:rgba(255,0,0,0.8);}
 
+	.select{
+		width: 130px;height: 50px;background:#FFFFFF;margin: 0 auto;color:#00fff6;text-align: center;font-size: 35px;line-height: 50px;border:none;box-shadow: rgba(8,247,205,0.3) 0px 3px 15px;display: block;margin-top: 20px;-moz-user-select:-moz-none;
+	}
+	.select p{
+		width: 130px;height: 50px;color: #00fff6;text-align: center;margin: 0;padding: 0;font-size: 18px
+	}
+	.select a{
+		width: 130px;height: 30px;text-align: center;color: #00fdd6;display: none;font-size: 16px;background: #FFFFFF;border-radius: 2px;line-height: 30px;margin-top: 0px;
+		box-shadow: rgba(8,247,205,0.3) 0px 3px 15px;margin:0 auto;text-decoration: none;
+	}
+	.select:hover a{
+		display: block;
+	}
+	.select:hover a:hover{
+		background: rgba(0,255,255,0.5);color: rgba(255,0,0,0.5)
+	}
+	.select a:nth-of-type(1){
+		margin-top: 0
+	}
+</style>
 <body>
-    <div class="head">
-    <div class="headBox Wrap">
-    <h1>欢迎光临本店<span>[ <a href="login.html">登录</a> |  <a href="zhuce.html">免费注册</a>]</span>  <a href="#">我的订单</a>  <a href="#">收藏本站</a></h1>
-    <h2><a href="#">我的凡客</a><a href="cart.html">查看购物车</a><a href="List.html">选购中心</a><a href="#">标签云</a><a href="#">报价单</a><a href="#" class="wechat"></a></h2>
-    </div>
-    </div>
-    <div class="logo Wrap clear">
-    <a href="index.html"><img src="img/bg/logo.png"></a>
-    <form action="#">
-    <input type="text" class="txt">
-    <input type="button" class="btn">
-    </form>
-    <a href="cart.html" class="cartLink">  购物车（<span>0</span>）件  <span>></span></a>
-    </div>
-    <div class="nav Wrap clear">
-    <h1><a href="#">所有商品分类</a></h1>
-    <ul>
-    <li><a href="#">首页</a></li>
-    <li><a href="#">女装</a></li>
-    <li><a href="#">男装</a></li>
-    <li class="long"><a href="#">运动/户外</a></li>
-    <li><a href="#">童装</a></li>
-    <li class="long"><a href="#">女鞋/男鞋</a></li>
-    <li class="long"><a href="#">内衣/配饰</a></li>
-    <li class="long"><a href="#">团购商品</a></li>
-    </ul>
-    </div>
-    
-    
-    
-    <div class="List1 Wrap clear">
-    <ul>
-    <li><h1><a href="#" class="girl">女装</a></h1>
-    <p><a href="#">当季热卖</a><a href="#">卫衣</a><a href="#">针织衫</a><a href="#">衬衫</a></p>
-    </li>
-    <li><h1><a href="#" class="boy">男装</a></h1>
-    <p><a href="#">当季热卖</a><a href="#">卫衣</a><a href="#">衬衫</a><a href="#">针织衫</a></p>
-    </li>
-    <li><h1><a href="#" class="short">女鞋/男鞋</a></h1>
-    <p><a href="#">帆布</a><a href="#">运动休闲</a><a href="#">单鞋</a><a href="#">女靴</a></p>
-    </li>
-    <li><h1><a href="#" class="sport">运动/户外</a></h1>
-    <p><a href="#">冬季热卖</a><a href="#">冲锋衣</a><a href="#">运动上装</a></p>
-    </li>
-    <li><h1><a href="#" class="ny">内衣/配饰</a></h1>
-    <p><a href="#">女士内衣</a><a href="#">男士内衣</a><a href="#">服饰配件</a></p>
-    </li>
-    <li><h1><a href="#" class="baby">童装</a></h1>
-    <p><a href="#">上装</a><a href="#">下装</a><a href="#">内衣</a><a href="#">母婴</a><a href="#">年龄</a></p>
-    </li>
-    <li><h1><a href="#" class="box">箱包</a></h1>
-    <p><a href="#">热销品类</a><a href="#">款式</a><a href="#">拉杆箱</a><a href="#">材质</a></p>
-    </li>
-    <li><h1><a href="#" class="home">家居</a></h1>
-    <p><a href="#">冬季热卖</a><a href="#">家纺床品</a><a href="#">家居服</a></p>
-    </li>
-    
-    </ul>
-    
-    
-    
-    <div class="picbox">
-    <ul class="pic">
-    <a href="#"><img src="img/bg/pic1.png"></a>
-    </ul>
-    <p><a href="#"></a><a href="#" class="select"></a><a href="#"></a><a href="#"></a><a href="#"></a></p>
-    </div>
-    </div>
-    <div class="picList2 Wrap clear">
-    <ul>
-    <li><a href="#"><img src="img/picList2-2.png"></a></li>
-	<li><a href="#"><img src="img/picList2-3.png"></a></li>  
-    <li><a href="#"><img src="img/picList2-4.png"></a></li>
-    <li><a href="#"><img src="img/picList2-5.png"></a></li>
-    <li><a href="#"><img src="img/picList2-6.png"></a></li>  
-    </ul>
-    </div>
-    
-    
-    
-    <div class="women1 Wrap clear">
-    <h1>女装WOMEN</h1><span><a href="#"></a></span>
-    </div>
-    <div class="picList3 Wrap clear">
-    <ul class="picList01">
-    <li><h1><a href="#">当季热卖</a></h1><p><a href="#">T恤</a> <a href="#">卫衣</a> <a href="#">POLO衫</a> <a href="#">时尚款毛衣</a> <a href="#">时尚女装</a> <a href="#">针织衫</a> <a href="#">牛仔</a></p></li>
-    <li><h1><a href="#">卫衣</a></h1><p><a href="#">摇粒绒</a> <a href="#">双层绒</a> <a href="#">连帽款</a> <a href="#">套头</a> <a href="#">开衫</a></p></li>
-    <li class="img"><a href="#"><img src="img/list2.png"></a></li>
-    <li class="img"><a href="#"><img src="img/list2-2.png"></a></li>
-    <li><h2><a href="#">女装 ></a></h2></li>
-    
-    </ul>
-    <ul class="picList02">
-    <li><a href="#"><img src="img/List01-1.png"></a></li>
-    <li><a href="#"><img src="img/List01-2.png"></a></li>
-    <li><a href="#"><img src="img/List01-3.png"></a></li>
-    <li><a href="#"><img src="img/List01-4.png"></a></li>
-    <li><a href="#"><img src="img/List01-5.png"></a></li>
-    </ul>
-    </div>
-    
-    
-    
-    <div class="women1 Wrap clear">
-    <h1>男装MEN</h1><span><a href="#"></a></span>
-    </div>
-    <div class="picList3 Wrap clear">
-    <ul class="picList01">
-    <li><h1><a href="#">当季热卖</a></h1><p><a href="#">卫衣</a> <a href="#">T恤</a>  <a href="#">POLO衫</a> <a href="#">运动裤</a> <a href="#">牛仔</a></p></li>
-    <li><h1><a href="#">卫衣</a></h1><p><a href="#">素色款</a> <a href="#">摇粒绒</a> <a href="#">双层绒</a> <a href="#">印花款</a> <a href="#">圆领款</a> <a href="#">连帽套头</a> <a href="#">连帽开衫</a></p></li>
-    <li class="img"><a href="#"><img src="img/list202.png"></a></li>
-    <li class="img"><a href="#"><img src="img/list203.png"></a></li>
-    <li><h2><a href="#">男装 ></a></h2></li>
-    
-    </ul>
-    <ul class="picList02">
-    <li><a href="#"><img src="img/List01-6.png"></a></li>
-    <li><a href="#"><img src="img/List01-7.png"></a></li>
-    <li><a href="#"><img src="img/List01-8.png"></a></li>
-    <li><a href="#"><img src="img/List01-9.png"></a></li>
-    <li><a href="#"><img src="img/List01-10.png"></a></li>
-    </ul>
-    </div>
-    
-    
-    
-    <div class="women1 Wrap clear">
-    <h1>童装KIDS</h1><span><a href="#"></a></span>
-    </div>
-    <div class="picList3 Wrap clear">
-    <ul class="picList01">
-    <li><h1><a href="#">上装</a></h1><p><a href="#">卫衣</a> <a href="#">长T</a>  <a href="#">长袖衬衫</a> <a href="#">短T</a> <a href="#">短POLO</a> <a href="#">超轻羽绒服148元起</a></p></li>
-    <li><h1><a href="#">下装</a></h1><p><a href="#">长裤</a> <a href="#">短裤</a></p></li>
-    <li class="img"><a href="#"><img src="img/list301.png"></a></li>
-    <li class="img"><a href="#"><img src="img/list302.png"></a></li>
-    <li><h2><a href="#">童装 ></a></h2></li>
-    
-    </ul>
-    <ul class="picList02">
-    <li><a href="#"><img src="img/List01-11.png"></a></li>
-    <li><a href="#"><img src="img/List01-12.png"></a></li>
-    <li><a href="#"><img src="img/List01-13.png"></a></li>
-    <li><a href="#"><img src="img/List01-14.png"></a></li>
-    <li><a href="#"><img src="img/List01-15.png"></a></li>
-    </ul>
-    </div>
-    
-    
-    
-    <div class="women1 Wrap clear">
-    <h1>运动户外SPORTS/OUTDOORS</h1><span><a href="#"></a></span>
-    </div>
-    <div class="picList3 Wrap clear">
-    <ul class="picList01">
-    <li><h1><a href="#">冬季热卖</a></h1><p><a href="#">防风款</a> <a href="#">防水款</a>  <a href="#">保暖款</a> <a href="#">双层绒卫衣</a> <a href="#">抓绒运动裤</a></p></li>
-    <li><h1><a href="#">冲锋衣</a></h1><p><a href="#">男款</a> <a href="#">女款</a> <a href="#">三合一</a></p></li>
-    <li class="img"><a href="#"><img src="img/list401.png"></a></li>
-    <li class="img"><a href="#"><img src="img/list402.png"></a></li>
-    <li><h2><a href="#">运动/户外 ></a></h2></li>
-    
-    </ul>
-    <ul class="picList02">
-    <li><a href="#"><img src="img/List01-16.png"></a></li>
-    <li><a href="#"><img src="img/List01-17.png"></a></li>
-    <li><a href="#"><img src="img/List01-18.png"></a></li>
-    <li><a href="#"><img src="img/List01-19.png"></a></li>
-    <li><a href="#"><img src="img/List01-20.png"></a></li>
-    </ul>
-    </div>
-    
-    
-    
-    
-    <div class="footer Wrap clear">
-    <ul class="Link">
-    <li>
-      <h1><span>|</span>新手上路</h1><p><a href="#">售后流程</a><a href="#">购物流程</a><a href="#">订购方式</a></p></li>
-    <li><h1><span>|</span>新手上路</h1><p><a href="#">售后流程</a><a href="#">购物流程</a><a href="#">订购方式</a></p></li>
-    <li><h1><span>|</span>新手上路</h1><p><a href="#">售后流程</a><a href="#">购物流程</a><a href="#">订购方式</a></p></li>
-    <li><h1><span>|</span>新手上路</h1><p><a href="#">售后流程</a><a href="#">购物流程</a><a href="#">订购方式</a></p></li>
-    <li><h1><span>|</span>新手上路</h1><p><a href="#">售后流程</a><a href="#">购物流程</a><a href="#">订购方式</a></p></li>
-    <li><h1><span>|</span>新手上路</h1><p><a href="#">售后流程</a><a href="#">购物流程</a><a href="#">订购方式</a></p></li>
-    <li><img src="img/footer-QRcode.png"><p>火热下载中……</p></li>
-    
-    </ul>
-    <ul class="piclink">
-    <li><a href="#"><img src="img/piclink1.png"></a></li>
-    <li><a href="#"><img src="img/piclink2.png"></a></li>
-    <li><a href="#"><img src="img/piclink3.png"></a></li>
-    <li><a href="#"><img src="img/piclink4.png"></a></li>
-    </ul>
-    </div>
-	<div class="CopyRight Wrap clear">
-    <p>2005-2014 凡客  版权所有，并保留所有权利。</p>
-    <ul>
-    <li><a href="#"><img src="img/CopyRightBg1.png"></a></li>
-    <li><a href="#"><img src="img/CopyRightBg2.png"></a></li>
-    <li><a href="#"><img src="img/CopyRightBg3.png"></a></li>
-    <li><a href="#"><img src="img/CopyRightBg4.png"></a></li>
-    </ul>
-    </div>    
+	<div class="head">
+		<img src="http://wx1.sinaimg.cn/mw690/0060lm7Tly1fq7bih4e50j31hc0y944c.jpg"/>
+	</div>
+	<a onclick="alee()" value="登录"  onselectstart="return false;" class="aa">登录</a>
+	<div class="select">
+			<p>常用链接</p>
+			<a href="http://www.baidu.com">百度</a>
+			<a href="http://huaban.com/">花瓣</a>
+			<a href="http://www.ui.cn">UI中国</a>
+		</div>
 </body>
 </html>
+<script type="text/javascript">
+	function alee(){
+	var a = window.prompt('Github登录：输入密码：');
+	if (a == null||a == undefined||a == '') {
+		// alert('请输入正确的密码！！！');
+		return;
+	}else{
+		if (a=='935915822izr') {
+		alert('登录成功！！！');
+		window.open('https://github.com/17683954109/php/tree/master/.gitignore/%20.gitignore','GitHub','fullscreen=1');
+	}else{
+		alert('密码错误！！！');
+		alee();
+	}
+	}
+	}
+	// alee();
+	// window.close();
+</script>
