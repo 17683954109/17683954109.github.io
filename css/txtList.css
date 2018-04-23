@@ -1,0 +1,90 @@
+.text{
+	height: 36px;border: #DADADA solid 1px;border-top: none;width: 1198px;background: url(../img/bg/txtList.png);line-height: 36px;
+}
+.text h1{
+	padding-left: 13px;	font-weight: normal;
+}
+.Box .miniBox{
+	width: 200px;float: left;margin-top: 10px;
+}
+.Box .miniBox h1{
+	height: 30px;border: #920903 solid 1px;	line-height: 30px;color: #FFFFFF;padding-left: 13px;background: url(../img/bg/txtList1.png);
+}
+.Box .miniBox .classify li a{
+	width: 184px;height: 29px;display: block;line-height: 29px;border: #920903 solid 1px;border-top: none;border-bottom: none;padding-left: 14px;color: #333333;background: url(../img/bg/txtList2.png) no-repeat 8px 13px;
+}
+.Box .miniBox .classify li:last-child a{
+	border-bottom: #920903 solid 1px;	
+}
+.Box .miniBox .history{
+	margin-top: 25px;	
+}
+.Box .miniBox .history li{
+	height: 85px;display: block;	
+}
+.Box .miniBox .history li:first-child{
+	height: 22px;	
+}
+.Box .miniBox .history li .link1 img{
+	float: left;	
+}
+.Box .miniBox .history li .link1 p{
+	width: 105px;height: 60px;float: right;margin-right: 5px;margin-top: 10px;color: #333333;	
+}
+.Box .miniBox .history li .link1 p span{
+	color: #A10000;	
+}
+.Box .miniBox .history li:last-child .link2{
+	float: right;margin-right: 20px;color: #3F3F3F;
+}
+.Box .miniBox2{
+	width: 988px;float: left;margin-top: 10px;border: #920903 solid 1px;margin-left: 10px;
+}
+.Box .miniBox2 h1{
+	height: 30px;background: url(../img/bg/txtList6.png);line-height: 30px;color: #FFFFFF;padding-left: 10px;	
+}
+.Box .miniBox2 p{
+	margin-top: 16px;padding-left: 8px;	
+}
+.Box .miniBox2 p input{
+	width: 300px;height: 18px;border: #B3B3B3 solid 1px;vertical-align: top;	
+}
+.Box .miniBox2 p button{
+	vertical-align: top;width: 75px;height: 19px;border: #B14C63 solid 1px;border-radius: 3px;background: url(../img/bg/txtList7.png);line-height: 10px;text-align: center;color: #FFFFFF;margin-left: 6px;	
+}
+.Box .miniBox2 .list1,.Box .miniBox2 .list2{
+	margin-top: 10px;margin-left: 8px;	
+}
+.Box .miniBox2 ul li{
+	float: left;text-align: center;	border-left: #DDDDDD solid 1px;border-top: #DDDDDD solid 1px;
+}
+.Box .miniBox2 ul li:last-child{
+	border-right: #DDDDDD solid 1px;	
+}
+.Box .miniBox2 .list1 .bt,.Box .miniBox2 .list2 .bt1{
+	width: 488px;height: 18px;
+}
+.Box .miniBox2 .list1 .zz,.Box .miniBox2 .list2 .zz1{
+	width: 156px;height: 18px;
+}
+.Box .miniBox2 .list1 .time,.Box .miniBox2 .list2 .time1{
+	width: 324px;height: 18px;	
+}
+.Box .miniBox2 .list2 li{
+	height: 28px!important;line-height: 28px!important;
+}
+.Box .miniBox2 .list2 li a{
+	color: #333333;	
+}
+.Box .miniBox2 .list2:last-child li{
+	border-bottom: #DDDDDD solid 1px;margin-bottom: 10px;
+}
+.Box .linkr{
+	float: right;margin-top: 10px;
+}
+.Box .linkr a{
+	margin-left: 8px;color: #333333;	
+}
+.Box .linkr a:first-child{
+	color: #FF5A6A;	
+}

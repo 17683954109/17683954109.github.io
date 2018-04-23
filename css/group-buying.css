@@ -1,0 +1,75 @@
+.box{
+	margin-top: 5px
+}
+.box .miniBox{
+	width: 180px;float: left;
+}
+.box .miniBox .all{
+	float: left;width: 180px;
+}
+.box .miniBox .all li{
+	width: 180px;height: 55px;margin-top: 5px;text-align: center;display: block;
+}
+.box .miniBox .all li:first-child{
+	text-align: center;background: #A41413;color: #FFFFFF;display: block;width: 180px;height: 35px;line-height: 35px;font-size: 18px;font-weight: bold;
+}
+.box .miniBox .all li:last-child{
+	width: 180px;height: 45px;
+}
+.box .miniBox2{
+	width: 980px;float: left;
+}
+.box .miniBox2 .mininBox{
+	width: 980px;height: 126px;margin-left: 38px;position: relative;margin-top: 5px
+}
+.box .miniBox2 .mininBox .swich{
+	width:980px;height:120px;display:block;overflow:hidden;
+}
+.box .miniBox2 .mininBox .swich li{
+	width: 980px;height: 120px;display: block;
+}
+.box .miniBox2 .mininBox .button li{
+	float: left;
+}
+.box .miniBox2 .mininBox .button li a{
+	float: left;margin-right: 8px;width: 15px;height: 18px;background: #9E9D9D;color: #FFFFFF;border:#CECECE solid 1px;right: 8px;bottom: 15px;text-align: center;line-height: 18px
+}
+.box .miniBox2 .mininBox .button{
+	float: right;position: absolute;right: 5px;bottom: 15px;
+}
+.box .miniBox2 .mininBox .button .select a{
+	background: #7F0019
+}
+.box .miniBox2 p{
+	width: 965px;height: 32px;background:url(../img/bg/cart06.png); margin-left: 38px;line-height: 32px;padding-left: 15px;box-shadow:0 10px 30px -10px rgba(0,0,0,0.2);border-bottom: #E0E0E0 solid 2px;color: #A41413;font-size: 14px 
+}
+.box .miniBox2 .picItem{
+	margin-left: 38px;width: 980px;float: left;
+}
+.box .miniBox2 .picItem li{
+	width:312px;height: 336px;float: left;border: #DBDBDB solid 1px;box-shadow:0 10px 30px -10px rgba(0,0,0,0.2);margin-right: 18px;margin-top: 15px
+}
+.box .miniBox2 .picItem .noright{
+	margin-right: 0px
+}
+.box .miniBox2 .picItem li a img{
+	border-bottom: #DBDBDB solid 1px;
+}
+.box .miniBox2 .picItem li a h2{
+	height: 50px;line-height: 50px;padding-left: 15px;color: #333333;
+}
+.box .miniBox2 .picItem li a h3{
+	color:#C80202;font-size: 18px;font-weight: bold;height: 50px;line-height: 10px;display: block;padding-left: 20px;background: #FFEDCE
+}
+.box .miniBox2 .picItem li a h3 em{
+	color: #3B3B3B; font-size: 10px;display: inline-block;font-style: normal;font-weight: normal;text-decoration: line-through;margin-left: 40px;padding-top: 14px;line-height: 12px
+}
+.box .miniBox2 .picItem li a h3 em span{
+	font-size: 14px
+}
+.box .miniBox2 .picItem li a h3 strong{
+	font-size: 14px;font-weight: normal;margin-left: 45px
+}
+.box .miniBox2 .picItem li a h3 strong span{
+	color: #3B3B3B
+}
