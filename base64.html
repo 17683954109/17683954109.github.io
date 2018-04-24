@@ -7,7 +7,10 @@
     <body>
         <p style="width:100%;height:80px;margin:0 auto;text-align:center;line-height:80px;color:#1b3a3a;font-size:14px">仅供转换图标，大图片完全没必要转换</p>
         <textarea id="base64_output" name="Word" style=" width:820px;height:500px;margin:0 auto;display:block"></textarea>
-        <div style="width:100%;height:50px;text-align:center;margin:0 auto;line-height:50px"><input accept="image/*" name="upimage" id="upload_file" type="file" style="margin:0 auto"></div>
+        <div style="width:100%;height:50px;text-align:center;margin:0 auto;line-height:50px">
+            <input accept="image/*" name="upimage" id="upload_file" type="file" style="margin:0 auto">
+            <button onclick='clear()'>清除</button>
+        </div>
         <script type="text/javascript">
             document.getElementById("upload_file").onchange = function () {
                 gen_base64();
@@ -22,6 +25,9 @@
                     $_('base64_output').value = r.result;
                 }
                 r.readAsDataURL(file);    //Base64
+            }
+            function clear(){
+            document.getElementById('base64_output').=''
             }
         </script>
     </body>
