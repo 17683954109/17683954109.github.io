@@ -1,18 +1,10 @@
-html {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-}
 body {
   width: 100%;
-  background: #ffffff url('http://wx4.sinaimg.cn/mw690/0060lm7Tly1fq7c7mghz3j30ia0wigra.jpg');
+  background: #ffffff url('http://wx4.sinaimg.cn/mw690/0060lm7Tly1fq7cc4jvrzj30fo0fjmzq.jpg');
   margin: 0;
   padding: 0;
   background-size: 3.6407767rem 6.47572816rem;
   overflow: hidden;
-  height: 100%;
 }
 .head {
   width: 1.45631068rem;
@@ -33,6 +25,12 @@ img {
   margin: 0 auto;
   padding: 0;
 }
+.sds {
+  width: 70%;
+  height: 25%;
+  padding-top: 10%;
+  padding-left: 30%;
+}
 .aa {
   width: 0.77669903rem;
   height: 0.77669903rem;
@@ -45,9 +43,9 @@ img {
   border-radius: 0.38834951rem;
   border: none;
   box-shadow: rgba(8, 247, 205, 0.8) 0px 3px 15px;
-  display: block;
-  margin-top: 0.48543689rem;
+  display: inline-block;
   -moz-user-select: -moz-none;
+  float: left;
 }
 .select {
   width: 0.97087379rem;
@@ -60,10 +58,10 @@ img {
   line-height: 0.77669903rem;
   border: none;
   box-shadow: rgba(8, 247, 205, 0.3) 0rem 0.02912621rem 0.14563107rem;
-  display: block;
-  margin-top: 0.19417476rem;
+  display: inline-block;
   -moz-user-select: -moz-none;
   border-radius: 0.48543689rem;
+  margin-left: 0.19417476rem;
 }
 .box {
   width: 80%;
