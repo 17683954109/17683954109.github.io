@@ -1,3 +1,7 @@
+html {
+  width: 100%;
+  height: 100%;
+}
 body {
   width: 100%;
   background: #ffffff url('http://wx4.sinaimg.cn/mw690/0060lm7Tly1fq7cc4jvrzj30fo0fjmzq.jpg');
@@ -5,6 +9,8 @@ body {
   padding: 0;
   background-size: 3.6407767rem 6.47572816rem;
   overflow: hidden;
+  height: 100%;
+  padding-top: 0.48543689rem;
 }
 .head {
   width: 1.45631068rem;
@@ -14,7 +20,6 @@ body {
   box-shadow: rgba(254, 102, 1, 0.8) 0.14563107rem 0.0776699rem 0.24271845rem;
   margin: 0 auto;
   padding: 0;
-  margin-top: 0.48543689rem;
   overflow: hidden;
   background: #FFFFFF;
   text-align: center;
@@ -63,25 +68,42 @@ img {
   margin-left: 1.94174757rem;
 }
 .box {
-  width: 80%;
+  width: 100%;
+  height: 7.57281553rem;
   text-align: center;
   color: #00fdd6;
   font-size: 0.19417476rem;
-  background: #FFFFFF;
-  border-radius: 0.09708738rem;
-  line-height: 0.29126214rem;
+  background: rgba(37, 38, 39, 0.6);
   margin-top: 0px;
   box-shadow: rgba(8, 247, 205, 0.3) 0rem 0.02912621rem 0.14563107rem;
   margin: 0 auto;
   text-decoration: none;
   overflow: hidden;
   position: fixed;
-  bottom: 5%;
-  left: 10%;
+  bottom: 0;
+  left: 0;
+}
+.box a:first-child {
+  margin-top: 3.88349515rem;
 }
 .box a {
   width: 100%;
-  height: 0.38834951rem;
+  height: 0.58252427rem;
+  text-align: center;
+  color: #00fdd6;
+  display: block;
+  font-size: 0.19417476rem;
+  background: #FFFFFF;
+  border-radius: 0.09708738rem;
+  line-height: 0.58252427rem;
+  margin-top: 0px;
+  box-shadow: rgba(8, 247, 205, 0.3) 0rem 0.02912621rem 0.14563107rem;
+  margin: 0 auto;
+  text-decoration: none;
+}
+.box button {
+  width: 100%;
+  height: 0.48543689rem;
   text-align: center;
   color: #00fdd6;
   display: block;
@@ -93,4 +115,5 @@ img {
   box-shadow: rgba(8, 247, 205, 0.3) 0rem 0.02912621rem 0.14563107rem;
   margin: 0 auto;
   text-decoration: none;
+  margin-top: 0.29126214rem;
 }
