@@ -26,15 +26,16 @@ img {
   padding: 0;
 }
 .sds {
-  width: 70%;
+  width: 100%;
   height: 25%;
+  padding-top: 0.29126214rem;
+  padding-left: 0.97087379rem;
 }
 .aa {
-  margin-left:0.97087379rem;
   width: 0.77669903rem;
   height: 0.77669903rem;
   background: rgba(255, 255, 255, 0.9);
-  margin: 0 auto;
+  margin: 0;
   color: #00fff6;
   text-align: center;
   font-size: 0.19417476rem;
@@ -42,25 +43,24 @@ img {
   border-radius: 0.38834951rem;
   border: none;
   box-shadow: rgba(8, 247, 205, 0.8) 0px 3px 15px;
-  display: inline-block;
+  display: block;
   -moz-user-select: -moz-none;
-  float: left;
 }
 .select {
   width: 0.97087379rem;
   height: 0.97087379rem;
   background: #FFFFFF;
-  margin: 0 auto;
+  margin: 0;
   color: #00fff6;
   text-align: center;
   font-size: 0.19417476rem;
   line-height: 0.77669903rem;
   border: none;
   box-shadow: rgba(8, 247, 205, 0.3) 0rem 0.02912621rem 0.14563107rem;
-  display: inline-block;
+  display: block;
   -moz-user-select: -moz-none;
   border-radius: 0.48543689rem;
-  margin-left: 0.19417476rem;
+  margin-left: 0.77669903rem;
 }
 .box {
   width: 80%;
