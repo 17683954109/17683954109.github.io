@@ -28,10 +28,9 @@ img {
 .sds {
   width: 70%;
   height: 25%;
-  padding-top: 10%;
-  padding-left: 0.97087379rem;
 }
 .aa {
+  margin-left:0.97087379rem;
   width: 0.77669903rem;
   height: 0.77669903rem;
   background: rgba(255, 255, 255, 0.9);
