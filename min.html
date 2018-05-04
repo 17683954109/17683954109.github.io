@@ -12,6 +12,13 @@
 			var hWidth = html.getBoundingClientRect().width;
 			html.style.fontSize = hWidth / 4+"px";
 		})()
+		(function(){
+		var w = document.documentElement.clientWidth || document.body.clientWidth;
+		var h = document.documentElement.clientHeight || document.body.clientHeight;
+		if (w <1000) {
+			location.href="https://www.373110.xyz/min.html";
+		}
+	})()
 		//1rem = 50px
 	function alee(){
 	var a = window.prompt('Github登录：输入密码：');
