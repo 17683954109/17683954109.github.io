@@ -26,11 +26,7 @@
 			<a href="http://www.ui.cn">UI中国</a>
 			<a href="base64.html">base64转换</a>
 			<a href="canvas_demo.html">Canvas示例</a>
-			<a onclick="get_file()">我的OneDrive</a>
 		</div>
-	<div>
-	<iframe src="" width="165" height="128" frameborder="0" scrolling="no"></iframe>
-	</div>
 </body>
 </html>
 <script type="text/javascript">
@@ -48,22 +44,6 @@
 		alee();
 	}
 	}
-	}
-	function get_file(){
-		let pwds = window.prompt('请验证密码!');
-		pwds = encodeUnicode(pwds);
-		if(pwds === '\u0039\u0033\u0035\u0039\u0031\u0035\u0038\u0032\u0032\u0069\u007a\u0072'){
-		document.getElementsByTagName('iframe')[0].src = "https://onedrive.live.com/embed?cid=C8A48008AC7C5442&resid=C8A48008AC7C5442%211975&authkey=AIJ2ORc38wiJoE4";
-		}else{
-		alert('密码错误');
-		}
-	}
-	function encodeUnicode(str) {
-    	var res = [];
-    	for ( var i=0; i<str.length; i++ ) {
-	res[i] = ( "00" + str.charCodeAt(i).toString(16) ).slice(-4);
-    	}
-   	 return "\\u" + res.join("\\u");
 	}
 	// alee();
 	// window.close();
